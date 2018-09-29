@@ -1,54 +1,334 @@
-html,body
-{
-	margin:0;
-	padding:0;
+
+html, body {
+	width:100%;
+	height:100%;
 }
 
 .navbar-inverse {
 	background-color: rgba(0, 0, 0, 0.8);
-	position: fixed;
+	/*position: fixed;*/
 	box-shadow: 0px 3px 8px rgba(0, 0, 0, .5);
-	margin:0;
+	/*font-family: 'Raleway', sans-serif;*/
+	/*margin:0;*/
 }
 
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a {
     color:white;
-	font-family: 'Raleway', sans-serif;
-}
-
-.row {
-	margin:0px;
-}
-.container-fluid .homeBanner {
-	background-image: url("../images/banners/clouds.png");
+	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: 'Montserrat', sans-serif !important;*/
+	font: 500 17px/22px 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	padding-left: 20px;
+	padding-right: 40px;
 	
-	width: 100vw; 
-	height: 100vh;
-	/*margin:-10px;*/
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	/*
-	background-repeat: none;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-	*/
-
-	/*
-        height: 600px;
-    
-        background-attachment: fixed;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-	*/
+	-o-transition: .5s;
+  	-ms-transition: .5s;
+  	-moz-transition: .5s;
+  	-webkit-transition: .5s;
+  	transition: .5s;
 }
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #fff580;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+	font: 500 17px/22px 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	/*padding-left: 28px;*/
+	
+	-o-transition: .5s;
+  	-ms-transition: .5s;
+  	-moz-transition: .5s;
+  	-webkit-transition: .5s;
+  	transition: .5s;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #fff580;
+}
+
+#navLogo{
+	height: 54px;
+	width: 44px;
+	padding-bottom: 2px;
+	margin-left: 20px;
+	margin-right: 28px;
+	float: left;
+	
+	-o-transition: .5s;
+  	-ms-transition: .5s;
+  	-moz-transition: .5s;
+  	-webkit-transition: .5s;
+  	transition: .5s;
+	
+	filter: grayscale(100%);
+}
+
+#navLogo:hover {
+	filter: grayscale(0);
+}
+
+.cadcName {
+	display: inline-block;
+	border-left: solid white 1px;
+}
+
+#CA {
+	padding-top: 4px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+}
+#DC {
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-bottom: 4px;
+	/*padding-bottom:20px;*/
+}
+
+.navbar-nav>li>a {
+	text-align:left;
+}
+
+.navbar-nav {
+	/*padding-top: 15px;
+	padding-bottom: 15px;*/
+}
+
+#navigationBar{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+#homeBanner {
+	/*background: url("../images/banners/clouds.png") no-repeat center center fixed;*/
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+/*
+#bannerSection {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	top: 150px;
+}
+*/
+
+#bannerTop {
+	width: 100%;
+	position: relative;
+	top:30vh;
+	z-index: 2;
+}
+
+
+
+
+
+
+.parallaxBanner {
+    height: 100%;
+	width: 100%;
+    background: transparent;
+}
+
+
+
+#aboutUs {
+	background-color: #111111;
+}
+
+
+.aboutUsTitle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36pt;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
+
+.aboutUsSplit {
+	height: 0px;
+	width: 275px;
+	margin: 0px auto 0px auto;
+	border-bottom: solid white 1px;	
+}
+
+.aboutUsText {
+	margin-top: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 18pt;
+	color: white;
+	margin-bottom: 30px;
+}
+
+#learnMore {
+	color: #a3a3a3;
+	font-size: 15pt;
+	text-decoration: none !important;
+	
+	-o-transition: .5s;
+  	-ms-transition: .5s;
+  	-moz-transition: .5s;
+  	-webkit-transition: .5s;
+  	transition: .5s;
+}
+
+#learnMore:hover {
+	color: #fff580;
+}
+
+.youtubeVideo {
+	margin: 0 120px 0px 120px;
+}
+
+
+#vibeBanner {
+	/*background: url("../images/banners/clouds.png") no-repeat center center fixed;*/
+	display: table;
+	height: 40%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+#bottomContainer {
+	height:600px;
+	background-color: #111111;
+}
+
+
+
+.socialMedia {	
+	margin-top: 10px;
+	text-align: center;
+	font-size: 50px;
+	/*border-bottom: solid white 1px;*/
+	margin-bottom: 10px;
+}
+
+
+.socialMediaLink {
+	margin-left: 60px;	
+	text-decoration: none !important;
+	color: #a3a3a3;
+	
+	-o-transition: .5s;
+  	-ms-transition: .5s;
+  	-moz-transition: .5s;
+  	-webkit-transition: .5s;
+  	transition: .5s;
+}
+
+.socialMediaLink:hover {
+	color: #fff580;
+}
+
+
+#fbLink {
+	margin-left: 30px !important;
+}
+
+
+.bottomTextTop {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36pt;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+
+.bottomSplit {
+	height: 0px;
+	border-top: solid white 1px;
+}
+
+
+.bottomTextBottom {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	font-weight: 200;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #a3a3a3;
+	
+	margin-top: 120px;
+}
+
+.bottomTextBottom>p {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#kianTag {
+	margin-top: 20px;
+}
+
+
+
+/* FIX THIS LATER (ANIMATIONS NOT WAITING FOR SCROLL) */
+.fa-facebook-square {
+	animation-delay: .5s;
+}
+
+.fa-instagram {
+	animation-delay: .75s;
+}
+
+.fa-twitter-square {
+	animation-delay: 1s;
+}
+
+.fa-youtube {
+	animation-delay: 1.25s;
+}
+
+
+
+/*#fff580*/
+
+/*
+.fab {
+  color:blue;
+  /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. 
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property 
+  transition:.5s;
+}
+.fab:hover { color:red; }
+*/
+
+
+
+
+
+
 
