@@ -73,7 +73,8 @@ html, body {
 }
 
 .youtubeVideo {
-	margin: 0 120px 0px 120px;
+	/*margin: 0 120px 0px 120px;*/
+	padding:0;
 }
 
 #vibeBanner {
@@ -114,7 +115,7 @@ html, body {
 
 
 #fbLink {
-	margin-left: 30px !important;
+	margin-left: 0px !important;
 }
 
 .bottomTextTop {
