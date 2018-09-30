@@ -1,11 +1,153 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CADC | ChAOS</title>
+    <meta name="description" content="CADC - Chinese Association Dance Crew">
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+    
+    
+    <!-- Bootstrap/jquery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   	
+   	<!-- parallax script -->
+	<script src="./js/parallax.min.js"></script>
+   
+    <!-- social media icons -->
+   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-<body>
-faqs
+    <!-- styles and fonts -->
+    <link rel="stylesheet" href="./css/navigation-bar.css">
+    <link rel="stylesheet" href="./css/general-layout.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+  
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	  <div class="container-fluid" id="navigationBar">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a href="./index.html">
+			<img id="navLogo" src="./images/cadc_logo_yellow.png">
+		  </a>
+		  <a class="navbar-brand" href="./index.html">
+			<span class="cadcName">
+				<p id="CA">Chinese Association</p>
+				<p id="DC">Dance Crew</p>
+			</span>
+		  </a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="./about.html">ABOUT US</a></li>
+			<li><a href="./members.html">MEMBERS</a></li>
+			<li><a href="./events.html">EVENTS</a></li>
+			<li><a class="activePage" href="./faqs.html">FAQS</a></li>
+			<li><a href="./contact.html">CONTACT</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	  
+	  
+	<div class="pageTopBanner" id="faqsTopBanner">
+		<div class="parallaxBanner" data-parallax="scroll" data-z-index="1" data-image-src="./images/banners/vibe_2016.jpg">
+			<div class="container-fluid">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+					<div class="animated fadeInUp bannerTitle" id="faqsBannerTitle">
+						FAQS
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+    </div>
+	  
+	  
+	<div class="container-fluid" id="faqsPageContainer">
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8" id="faqsPageMain">
+				<div class="container-fluid faqsText" id="faqsTopText">
+					<div class="pageMiniHeader">
+						WHAT IS CADC?
+					</div>
+					<div class="row">
+						<div class="col-sm-4 headerUnderline"></div>
+					</div>
+					<div class="col-sm-10">
+						<div class="pageText">
+							CADC is the Chinese Association Dance Crew, a collegiate dance team based out of UC Irvine as a constituent of the UC Irvine Chinese Association club.
+						</div>
+					</div>
+				</div>
+				
+				<div class="container-fluid faqsText">
+					<div class="pageMiniHeader">
+						HOW DO YOU JOIN CADC?
+					</div>
+					<div class="row">
+						<div class="col-sm-7 headerUnderline"></div>
+					</div>
+					<div class="col-sm-10">
+						<div class="pageText">
+							To join CADC, you must be a full-time undergraduate student attending the University of California, Irvine. Additionally, you must be a registered member of the UC Irvine Chinese Association club.
+						</div>
+					</div>
+				</div>
+				
+				<div class="container-fluid faqsText">	
+					<div class="pageMiniHeader">
+						DO YOU HAVE TO HAVE EXPERIENCE IN DANCING?
+					</div>
+					<div class="row">
+						<div class="col-sm-3 headerUnderline"></div>
+					</div>
+					<div class="col-sm-10">
+						<div class="pageText">
+							Nope! Many members have not danced before college, you do not need to have prior dance experience to try out for the team.
+						</div>
+					</div>
+				</div>
+				
+				<div class="container-fluid faqsText" id="faqsBottomText">	
+					<div class="pageMiniHeader">
+						WHEN DOES CADC PRACTICE?
+					</div>
+					<div class="row">
+						<div class="col-sm-8 headerUnderline"></div>
+					</div>
+					<div class="col-sm-10">
+						<div class="pageText">
+							CADC practices 3 days a week: Sundays at 8PM, Mondays at 9PM, and Wednesdays at 9PM. Hell weeks are held before competitions as needed.
+						</div>
+					</div>
+				</div>
+				
+				<div class="container-fluid faqsBottomVideo">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10">
+						<div class="youtubeVideo">
+							<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container"><iframe src="https://www.youtube.com/embed/92rMisKr2K0?wmode=transparent&rel=0&showinfo=0&autoplay=0&loop=1" frameborder="0" allowfullscreen></iframe></div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
 </body>
 </html>

@@ -1,7 +1,14 @@
+/*
+Need to reorganize all of this at some point
+*/
 
 html, body {
 	width:100% !important;
 	height: 100%;
+}
+
+.activePage {
+	color: #fff580 !important;
 }
 
 
@@ -10,11 +17,62 @@ html, body {
 	background-color: #111111;
 }
 
+#membersPageContainer {
+	margin-top: 0px;
+	background-color: #111111;
+}
+
+#eventsPageContainer {
+	margin-top: 0px;
+	background-color: #111111;
+}
+
+#faqsPageContainer {
+	margin-top: 0px;
+	background-color: #111111;
+}
+
+#contactPageContainer {
+	margin-top: 0px;
+	background-color: #111111;
+}
+
 
 #aboutPageMain {
 	margin-top: 50px;
 	margin-bottom: 100px;
-	/*margin-bottom: 1000px;*/
+	border-radius: 8px;
+	border: solid #a3a3a3 2px;
+	background-color: white;
+}
+
+#membersPageMain {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 8px;
+	border: solid #a3a3a3 2px;
+	background-color: white;
+}
+
+#eventsPageMain {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 8px;
+	border: solid #a3a3a3 2px;
+	background-color: white;
+}
+
+#faqsPageMain {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 8px;
+	border: solid #a3a3a3 2px;
+	background-color: white;
+}
+
+#contactPageMain {
+	margin-top: 50px;
+	margin-bottom: 100px;
 	border-radius: 8px;
 	border: solid #a3a3a3 2px;
 	background-color: white;
@@ -32,6 +90,38 @@ html, body {
 
 
 #aboutTopBanner {
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#membersTopBanner {
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#eventsTopBanner {
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#faqsTopBanner {
+	display: table;
+	height: 70%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#contactTopBanner {
 	display: table;
 	height: 70%;
 	position: relative;
@@ -65,6 +155,22 @@ html, body {
 }
 
 #aboutBannerTitle {
+	background-color: rgba(0, 0, 0, .9);
+}
+
+#membersBannerTitle {
+	background-color: rgba(0, 0, 0, .9);
+}
+
+#eventsBannerTitle {
+	background-color: rgba(0, 0, 0, .7);
+}
+
+#faqsBannerTitle {
+	background-color: rgba(0, 0, 0, .7);
+}
+
+#contactBannerTitle {
 	background-color: rgba(0, 0, 0, .9);
 }
 
@@ -163,10 +269,44 @@ html, body {
 	object-fit: contain;
 }
 
+#membersTopText {
+	padding: 0px;
+	margin-bottom: 30px;
+}
+
+#membersPageText {
+	font-size: 17pt;
+}
 
 
+#eventsTopText {
+	padding: 0px;
+	margin-bottom: 30px;
+}
 
+#eventsBottomPhoto {
+	margin: 20px 0 10px 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
 
+#faqsTopText {
+	padding: 0px 0px 10px 0px;
+}
 
+.faqsText {
+	padding: 0px 0px 10px 0px;
+}
 
+#faqsBottomText {
+	padding: 0px 0px 30px 0px;
+}
 
+.faqsBottomVideo {
+	margin: 10px 0px 60px 0px;
+}
+
+#contactTopText {
+	padding: 0px 0px 30px 0px;
+}
