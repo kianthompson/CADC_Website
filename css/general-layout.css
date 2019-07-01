@@ -320,4 +320,8 @@ html, body {
 		font-size: 30pt;
 		min-width: 250px;
 	}
+
+	#contactPageContainer .pageMiniHeader {
+		font-size: 20pt;
+	}
 }
