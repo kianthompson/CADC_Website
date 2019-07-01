@@ -85,7 +85,8 @@ html, body {
 }
 
 #bottomContainer {
-	height:600px;
+	padding-top: 100px;
+	padding-bottom: 20px;
 	background-color: #111111;
 }
 
@@ -101,11 +102,11 @@ html, body {
 	text-decoration: none !important;
 	color: #a3a3a3;
 	
-	-o-transition: .5s;
-  	-ms-transition: .5s;
-  	-moz-transition: .5s;
-  	-webkit-transition: .5s;
-  	transition: .5s;
+	-o-transition: color .5s;
+  	-ms-transition: color .5s;
+  	-moz-transition: color .5s;
+  	-webkit-transition: color .5s;
+  	transition: color .5s;
 }
 
 .socialMediaLink:hover {
@@ -129,6 +130,9 @@ html, body {
 }
 
 .bottomSplit {
+	width: 33%;
+	min-width: 250px;
+	margin: 0 auto;
 	height: 0px;
 	border-top: solid white 1px;
 }
@@ -140,7 +144,6 @@ html, body {
 	letter-spacing: 1px;
 	text-align: center;
 	color: #a3a3a3;
-	
 	margin-top: 120px;
 }
 
@@ -153,9 +156,16 @@ html, body {
 	margin-top: 20px;
 }
 
+#kianTag a {
+	text-decoration: underline;
+	color: #a3a3a3;
+}
 
+#kianTag a:hover {
+	color: white;
+}
 
-/* FIX THIS LATER (ANIMATIONS NOT WAITING FOR SCROLL) */
+/* TODO: wait for scroll */
 .fa-facebook-square {
 	animation-delay: .5s;
 }
@@ -172,3 +182,8 @@ html, body {
 	animation-delay: 1.25s;
 }
 
+@media (max-width: 500px) {
+	.socialMedia * {
+		margin: 0 0 10px 0;
+	}
+}
